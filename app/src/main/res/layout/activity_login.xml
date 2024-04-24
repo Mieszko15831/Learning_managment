@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".Activities.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linLay"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/logowanieTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Logowanie"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/emailEDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linLay"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/dark_blue"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/hasloEDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEDT"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/dark_blue"
+        android:hint="Haslo"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/zalogujBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hasloEDT"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/okragly_przycisk"
+        android:text="Zaloguj"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/niemaszkontaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zalogujBT"
+        android:layout_marginTop="25dp"
+        android:text="Nie masz konta?" />
+
+    <TextView
+        android:id="@+id/zarejestrujTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/zalogujBT"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_toRightOf="@id/niemaszkontaTV"
+        android:text="Zarejestruj się"
+        android:textColor="@color/dark_blue" />
+
+</RelativeLayout>

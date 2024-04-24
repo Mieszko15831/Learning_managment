@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "32238818170",
+    "firebase_url": "https://learningmanagment-d2d86-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "learningmanagment-d2d86",
+    "storage_bucket": "learningmanagment-d2d86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32238818170:android:a643e1c0383ef20d2fbcc3",
+        "android_client_info": {
+          "package_name": "com.example.learning_activity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVd9Nkbcx-cQU8glDzBU_Q6bf8rsZm_T8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

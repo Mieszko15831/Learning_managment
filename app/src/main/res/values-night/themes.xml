@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Learning_activity" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_blue</item>
+        <item name="colorPrimaryVariant">@color/dark_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+</resources>
